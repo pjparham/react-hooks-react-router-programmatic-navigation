@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <Navbar setIsLoggedIn={setIsLoggedIn} />
+      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       <Switch>
         <Route exact path="/about">
           <About />
